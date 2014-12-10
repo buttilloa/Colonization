@@ -1,0 +1,8 @@
+C:\Users\Eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Colonization.exe
+C:\Users\Eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Colonization.pdb
+C:\Users\Eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\obj\x86\Debug\Colonization.csprojResolveAssemblyReference.cache
+C:\Users\Eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\obj\x86\Debug\Colonization.exe
+C:\Users\Eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\obj\x86\Debug\Colonization.pdb
+C:\Users\Eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\TitleScreen.xnb
+C:\Users\Eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\cursor.xnb
