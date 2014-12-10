@@ -52,7 +52,8 @@ namespace Colonization
             titleScreen = Content.Load<Texture2D>(@"TitleScreen");
             cursorSheet = Content.Load<Texture2D>(@"cursor");
             Cursor = new Sprite(Vector2.Zero, cursorSheet, new Rectangle(0, 0, 13, 20), Vector2.Zero);
-                
+            EffectManager.Initialize(graphics, Content);
+            EffectManager.LoadContent();   
                 
 
             // TODO: use this.Content to load your game content here
@@ -77,7 +78,7 @@ namespace Colonization
             MouseState ms = Mouse.GetState();
             Cursor.Location = new Vector2(ms.X, ms.Y);
             // TODO: Add your update logic here
-
+            EffectManager.Update(gameTime);
             base.Update(gameTime);
         }
 
@@ -91,7 +92,9 @@ namespace Colonization
             if (state == GameStates.TitleScreen)
                 spriteBatch.Begin();
             spriteBatch.Draw(titleScreen, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
-            Cursor.Draw(spriteBatch);    
+            Cursor.Draw(spriteBatch);
+            
+            EffectManager.Draw();
             spriteBatch.End();
             base.Draw(gameTime);
         }
