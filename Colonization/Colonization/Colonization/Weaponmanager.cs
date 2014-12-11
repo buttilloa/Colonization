@@ -21,9 +21,12 @@ namespace Colonization
         }
         public void Update(GameTime gameTime, MouseState ms)
         {
-            if (Hitbox.Intersects(new Rectangle(ms.X, ms.Y, 5, 5)) && ms.LeftButton == ButtonState.Pressed && UpgradeManager.CanUpgradeWeapon(upgradeLevel+1))
-              upgradeLevel++;
-        
+            if (Hitbox.Intersects(new Rectangle(ms.X, ms.Y, 5, 5)))
+            {
+                ToolTip.newToolTip("Next Upgrade: Stone", (int)Location.X+22, (int)Location.Y);
+                if (ms.LeftButton == ButtonState.Pressed && UpgradeManager.CanUpgradeWeapon(upgradeLevel + 1))
+                    upgradeLevel++;
+            }
         }
        
         public void Draw(SpriteBatch batch)

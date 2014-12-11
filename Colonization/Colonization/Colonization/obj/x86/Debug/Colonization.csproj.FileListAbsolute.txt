@@ -129,3 +129,5 @@ C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\
 C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\WaterJet.xnb
 C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Pericles14.xnb
 C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\ProjectMercury.dll
+C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\ToolTip.xnb
+C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Pericles2.xnb

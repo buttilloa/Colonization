@@ -57,3 +57,5 @@ Content\EffectLibrary\StarFireImpact.xnb
 Content\EffectLibrary\StarTrail.xnb
 Content\EffectLibrary\WaterJet.xnb
 Content\Pericles14.xnb
+Content\ToolTip.xnb
+Content\Pericles2.xnb

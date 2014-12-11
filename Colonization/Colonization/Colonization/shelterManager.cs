@@ -14,7 +14,6 @@ namespace Colonization
        Vector2 Location = new Vector2(15, 50);
        int upgradeLevel = 0;
        Rectangle Hitbox = new Rectangle(15, 50, 22, 22);
-       bool canUpgrade = true;
         public ShelterManager(Texture2D shelterSheet)
         {
             sheet = shelterSheet;
@@ -22,8 +21,12 @@ namespace Colonization
         }
         public void Update(GameTime gameTime,MouseState ms)
         {
-            if (Hitbox.Intersects(new Rectangle(ms.X, ms.Y, 5, 5)) && ms.LeftButton == ButtonState.Pressed && UpgradeManager.CanUpgradeShelter(upgradeLevel + 1))
-                upgradeLevel++;
+            if (Hitbox.Intersects(new Rectangle(ms.X, ms.Y, 5, 5)))
+            {
+              ToolTip.newDoubleToolTip("Shelter are cool","as well as", (int)Location.X + 22, (int)Location.Y);  
+                if (ms.LeftButton == ButtonState.Pressed && UpgradeManager.CanUpgradeShelter(upgradeLevel + 1))
+                    upgradeLevel++;
+            }
         }
         public void Draw(SpriteBatch batch)
         {

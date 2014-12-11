@@ -20,9 +20,10 @@ namespace Colonization
         GameStates state = GameStates.TitleScreen;
         Texture2D titleScreen;
         Texture2D cursorSheet;
+        Texture2D tooltipSheet;
         Texture2D WeaponShelterSheet;
         Sprite Cursor;
-        SpriteFont pericles14;
+        SpriteFont pericles14, pericles2;
         WeaponManager weaponManager;
         ShelterManager shelterManager;
         public static int WoodCount=0,StoneCount = 0,IronCount = 0;
@@ -65,13 +66,15 @@ namespace Colonization
             titleScreen = Content.Load<Texture2D>(@"TitleScreen");
             WeaponShelterSheet = Content.Load<Texture2D>(@"Sheet");
             cursorSheet = Content.Load<Texture2D>(@"cursor");
+            tooltipSheet = Content.Load<Texture2D>(@"ToolTip");
             Cursor = new Sprite(Vector2.Zero, cursorSheet, new Rectangle(0, 0, 13, 20), Vector2.Zero);
             //EffectManager.Initialize(graphics, Content);
             //EffectManager.LoadContent();
             pericles14 = Content.Load<SpriteFont>(@"Pericles14");
+            pericles2 = Content.Load<SpriteFont>(@"Pericles2");
             weaponManager = new WeaponManager(WeaponShelterSheet);
             shelterManager =new ShelterManager(WeaponShelterSheet);
-
+            ToolTip.AssignTexture(tooltipSheet);
             // TODO: use this.Content to load your game content here
         }
 
@@ -133,6 +136,7 @@ namespace Colonization
                  spriteBatch.DrawString(pericles14, "iron: " + IronCount, new Vector2(700, 40), Color.White);
              }
             //EffectManager.Draw(); 
+             ToolTip.drawToolTip(spriteBatch,pericles2);
             Cursor.Draw(spriteBatch);
             spriteBatch.End();
             base.Draw(gameTime);
