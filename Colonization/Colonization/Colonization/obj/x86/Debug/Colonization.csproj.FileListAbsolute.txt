@@ -35,7 +35,6 @@ C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\StarFireImpact.xnb
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\StarTrail.xnb
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\WaterJet.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\obj\x86\Debug\Colonization.csprojResolveAssemblyReference.cache
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Beam.xnb
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\BeamBlurred.xnb
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Cloud001.xnb

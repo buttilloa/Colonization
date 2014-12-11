@@ -16,7 +16,7 @@ namespace Colonization
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        enum GameStates {TitleScreen, Playing, PlayerDead, GameOver, Settings};
+        enum GameStates {TitleScreen, Intermission , DuringWave, GameOver, Settings};
         GameStates state = GameStates.TitleScreen;
         Texture2D titleScreen;
         Texture2D cursorSheet;
@@ -26,7 +26,8 @@ namespace Colonization
         SpriteFont pericles14, pericles2;
         WeaponManager weaponManager;
         ShelterManager shelterManager;
-        public static int WoodCount=0,StoneCount = 0,IronCount = 0;
+        public static int WoodCount=0,StoneCount = 0,IronCount = 0,Wave =0;
+
 
         Rectangle StartButton =   new Rectangle(331, 260, 150, 50);
         Rectangle nothingButton = new Rectangle(74, 292, 150, 50);
@@ -97,9 +98,9 @@ namespace Colonization
             MouseState ms = Mouse.GetState();
             Cursor.Location = new Vector2(ms.X, ms.Y);
             if (StartButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
-                state = GameStates.Playing;
+                state = GameStates.Intermission;
             if (nothingButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
-                state = GameStates.PlayerDead;
+                Console.WriteLine("YAYYY");
             if (OptionsButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
                 state = GameStates.Settings;
 
@@ -127,13 +128,14 @@ namespace Colonization
                  "Why did you click this button you idiot!",
                  new Vector2(280,240),
                  Color.White);
-             if (state == GameStates.Playing)
+             if (state == GameStates.Intermission || state == GameStates.DuringWave)
              {
                  shelterManager.Draw(spriteBatch);
                  weaponManager.Draw(spriteBatch);
                  spriteBatch.DrawString(pericles14, "Wood: "+WoodCount, new Vector2(687, 10), Color.White);
                  spriteBatch.DrawString(pericles14, "Stone: " + StoneCount, new Vector2(685, 25), Color.White);
                  spriteBatch.DrawString(pericles14, "iron: " + IronCount, new Vector2(700, 40), Color.White);
+                 spriteBatch.DrawString(pericles14, "Wave: " + Wave, new Vector2(365, 10), Color.White);
              }
             //EffectManager.Draw(); 
              ToolTip.drawToolTip(spriteBatch,pericles2);

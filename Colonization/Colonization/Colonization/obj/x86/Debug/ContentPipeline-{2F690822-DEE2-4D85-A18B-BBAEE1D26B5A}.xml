@@ -323,7 +323,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Sheet.xnb</Output>
-      <Time>2014-12-11T15:27:40.1878797-05:00</Time>
+      <Time>2014-12-11T18:22:27.0933898-05:00</Time>
+    </Item>
+    <Item>
+      <Source>ToolTip.png</Source>
+      <Name>ToolTip</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\ToolTip.xnb</Output>
+      <Time>2014-12-11T16:13:55.5477176-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\BasicExplosion.xml</Source>
@@ -531,15 +540,6 @@
       <Options>None</Options>
       <Output>C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Pericles14.xnb</Output>
       <Time>2014-12-11T15:11:43.6437859-05:00</Time>
-    </Item>
-    <Item>
-      <Source>ToolTip.png</Source>
-      <Name>ToolTip</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\ToolTip.xnb</Output>
-      <Time>2014-12-11T16:13:55.5477176-05:00</Time>
     </Item>
     <Item>
       <Source>Pericles2.spritefont</Source>

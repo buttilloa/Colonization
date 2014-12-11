@@ -23,7 +23,7 @@ namespace Colonization
         {
             if (Hitbox.Intersects(new Rectangle(ms.X, ms.Y, 5, 5)))
             {
-                ToolTip.newToolTip("Next Upgrade: Stone", (int)Location.X+22, (int)Location.Y);
+                ToolTip.newToolTip("Next Upgrade: ", (int)Location.X+22, (int)Location.Y);
                 if (ms.LeftButton == ButtonState.Pressed && UpgradeManager.CanUpgradeWeapon(upgradeLevel + 1))
                     upgradeLevel++;
             }

@@ -23,7 +23,7 @@ namespace Colonization
         {
             if (Hitbox.Intersects(new Rectangle(ms.X, ms.Y, 5, 5)))
             {
-              ToolTip.newDoubleToolTip("Shelter are cool","as well as", (int)Location.X + 22, (int)Location.Y);  
+              ToolTip.newDoubleToolTip("Next Upgrade: ","", (int)Location.X + 22, (int)Location.Y);  
                 if (ms.LeftButton == ButtonState.Pressed && UpgradeManager.CanUpgradeShelter(upgradeLevel + 1))
                     upgradeLevel++;
             }
