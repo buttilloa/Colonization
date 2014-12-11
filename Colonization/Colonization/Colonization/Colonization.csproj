@@ -117,6 +117,7 @@
     <Compile Include="ShelterManager.cs" />
     <Compile Include="sprite.cs" />
     <Compile Include="ToolTip.cs" />
+    <Compile Include="UpgradeManager.cs" />
     <Compile Include="WeaponManager.cs" />
   </ItemGroup>
   <ItemGroup>

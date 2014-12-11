@@ -25,6 +25,7 @@ namespace Colonization
         SpriteFont pericles14;
         WeaponManager weaponManager;
         ShelterManager shelterManager;
+        public static int WoodCount=0,StoneCount = 0,IronCount = 0;
 
         Rectangle StartButton =   new Rectangle(331, 260, 150, 50);
         Rectangle nothingButton = new Rectangle(74, 292, 150, 50);
@@ -98,6 +99,9 @@ namespace Colonization
                 state = GameStates.PlayerDead;
             if (OptionsButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
                 state = GameStates.Settings;
+
+            weaponManager.Update(gameTime,ms);
+            shelterManager.Update(gameTime,ms);
             //EffectManager.Update(gameTime);
             base.Update(gameTime);
         }
@@ -113,16 +117,23 @@ namespace Colonization
             
             if (state == GameStates.TitleScreen)
             spriteBatch.Draw(titleScreen, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
-            Cursor.Draw(spriteBatch);
+           
              if (state == GameStates.Settings)
                  spriteBatch.DrawString(
                  pericles14,
                  "Why did you click this button you idiot!",
                  new Vector2(280,240),
                  Color.White);
-             shelterManager.Draw(spriteBatch);
-            //spriteBatch.Draw(titleScreen,new Rectangle(500, 300, 40, 40), Color.Black);
-            //EffectManager.Draw();
+             if (state == GameStates.Playing)
+             {
+                 shelterManager.Draw(spriteBatch);
+                 weaponManager.Draw(spriteBatch);
+                 spriteBatch.DrawString(pericles14, "Wood: "+WoodCount, new Vector2(687, 10), Color.White);
+                 spriteBatch.DrawString(pericles14, "Stone: " + StoneCount, new Vector2(685, 25), Color.White);
+                 spriteBatch.DrawString(pericles14, "iron: " + IronCount, new Vector2(700, 40), Color.White);
+             }
+            //EffectManager.Draw(); 
+            Cursor.Draw(spriteBatch);
             spriteBatch.End();
             base.Draw(gameTime);
         }
