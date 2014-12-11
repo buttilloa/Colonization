@@ -114,8 +114,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="ShelterManager.cs" />
     <Compile Include="sprite.cs" />
     <Compile Include="ToolTip.cs" />
+    <Compile Include="WeaponManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />

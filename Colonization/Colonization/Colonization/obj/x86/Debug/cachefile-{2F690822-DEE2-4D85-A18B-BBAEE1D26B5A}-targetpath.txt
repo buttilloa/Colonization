@@ -55,3 +55,5 @@ Content\Textures\Star.xnb
 Content\Textures\Water001.xnb
 Content\Textures\Water002.xnb
 Content\Textures\Weeds.xnb
+Content\Pericles14.xnb
+Content\Sheet.xnb

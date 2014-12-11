@@ -16,14 +16,24 @@ namespace Colonization
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        enum GameStates {TitleScreen, Playing, PlayerDead, GameOver};
+        enum GameStates {TitleScreen, Playing, PlayerDead, GameOver, Settings};
         GameStates state = GameStates.TitleScreen;
         Texture2D titleScreen;
         Texture2D cursorSheet;
+        Texture2D WeaponShelterSheet;
         Sprite Cursor;
+        SpriteFont pericles14;
+        WeaponManager weaponManager;
+        ShelterManager shelterManager;
+
+        Rectangle StartButton =   new Rectangle(331, 260, 150, 50);
+        Rectangle nothingButton = new Rectangle(74, 292, 150, 50);
+        Rectangle OptionsButton = new Rectangle(579, 291, 150, 50);
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+            //graphics.PreferredBackBufferHeight = 600;
+            //graphics.ApplyChanges();
             Content.RootDirectory = "Content";
         }
 
@@ -36,8 +46,10 @@ namespace Colonization
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-           
+           // this.IsMouseVisible = true;
             base.Initialize();
+          
+          
         }
 
         /// <summary>
@@ -50,11 +62,14 @@ namespace Colonization
             spriteBatch = new SpriteBatch(GraphicsDevice);
             
             titleScreen = Content.Load<Texture2D>(@"TitleScreen");
+            WeaponShelterSheet = Content.Load<Texture2D>(@"Sheet");
             cursorSheet = Content.Load<Texture2D>(@"cursor");
             Cursor = new Sprite(Vector2.Zero, cursorSheet, new Rectangle(0, 0, 13, 20), Vector2.Zero);
-            EffectManager.Initialize(graphics, Content);
-            EffectManager.LoadContent();   
-                
+            //EffectManager.Initialize(graphics, Content);
+            //EffectManager.LoadContent();
+            pericles14 = Content.Load<SpriteFont>(@"Pericles14");
+            weaponManager = new WeaponManager(WeaponShelterSheet);
+            shelterManager =new ShelterManager(WeaponShelterSheet);
 
             // TODO: use this.Content to load your game content here
         }
@@ -77,8 +92,13 @@ namespace Colonization
         {
             MouseState ms = Mouse.GetState();
             Cursor.Location = new Vector2(ms.X, ms.Y);
-            // TODO: Add your update logic here
-            EffectManager.Update(gameTime);
+            if (StartButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
+                state = GameStates.Playing;
+            if (nothingButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
+                state = GameStates.PlayerDead;
+            if (OptionsButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
+                state = GameStates.Settings;
+            //EffectManager.Update(gameTime);
             base.Update(gameTime);
         }
 
@@ -89,12 +109,20 @@ namespace Colonization
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+             spriteBatch.Begin();
+            
             if (state == GameStates.TitleScreen)
-                spriteBatch.Begin();
             spriteBatch.Draw(titleScreen, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
             Cursor.Draw(spriteBatch);
-            
-            EffectManager.Draw();
+             if (state == GameStates.Settings)
+                 spriteBatch.DrawString(
+                 pericles14,
+                 "Why did you click this button you idiot!",
+                 new Vector2(280,240),
+                 Color.White);
+             shelterManager.Draw(spriteBatch);
+            //spriteBatch.Draw(titleScreen,new Rectangle(500, 300, 40, 40), Color.Black);
+            //EffectManager.Draw();
             spriteBatch.End();
             base.Draw(gameTime);
         }
