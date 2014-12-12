@@ -130,3 +130,7 @@ C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\
 C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\ProjectMercury.dll
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\ToolTip.xnb
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Pericles2.xnb
+C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\ToolTip.xnb
+C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Pericles2.xnb
+C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\obj\x86\Debug\Colonization.csprojResolveAssemblyReference.cache
+C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\buttons.xnb

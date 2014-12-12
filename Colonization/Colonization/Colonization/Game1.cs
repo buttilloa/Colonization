@@ -27,6 +27,9 @@ namespace Colonization
         WeaponManager weaponManager;
         ShelterManager shelterManager;
         public static int WoodCount=0,StoneCount = 0,IronCount = 0,Wave =0;
+        public static double TimeHour = 12;
+        public static double TimeMinutes = 00;
+        bool isAM = true;
 
 
         Rectangle StartButton =   new Rectangle(331, 260, 150, 50);
@@ -103,7 +106,20 @@ namespace Colonization
                 Console.WriteLine("YAYYY");
             if (OptionsButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
                 state = GameStates.Settings;
-
+            if (TimeMinutes < 60)
+                TimeMinutes += 1;
+            else
+            {
+                if (TimeHour == 12)
+                {
+                    TimeHour = 1;
+                    if (isAM) isAM = false;
+                    else isAM = true;
+                }
+                else
+                    TimeHour++;
+                TimeMinutes = 01;
+            }
             weaponManager.Update(gameTime,ms);
             shelterManager.Update(gameTime,ms);
             //EffectManager.Update(gameTime);
@@ -136,6 +152,10 @@ namespace Colonization
                  spriteBatch.DrawString(pericles14, "Stone: " + StoneCount, new Vector2(685, 25), Color.White);
                  spriteBatch.DrawString(pericles14, "iron: " + IronCount, new Vector2(700, 40), Color.White);
                  spriteBatch.DrawString(pericles14, "Wave: " + Wave, new Vector2(365, 10), Color.White);
+                 if(isAM)
+                 spriteBatch.DrawString(pericles14, "Time: " + TimeHour+":"+TimeMinutes + " AM", new Vector2(505, 10), Color.White);
+                 else
+                 spriteBatch.DrawString(pericles14, "Time: " + TimeHour+":"+TimeMinutes+ " PM", new Vector2(505, 10), Color.White);
              }
             //EffectManager.Draw(); 
              ToolTip.drawToolTip(spriteBatch,pericles2);
