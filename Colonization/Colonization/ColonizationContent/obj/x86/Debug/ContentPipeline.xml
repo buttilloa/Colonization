@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\TitleScreen.xnb</Output>
-      <Time>2014-12-12T07:28:10.0756-05:00</Time>
+      <Time>2014-12-15T07:25:56.0764-05:00</Time>
     </Item>
     <Item>
       <Source>cursor.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\cursor.xnb</Output>
-      <Time>2014-12-12T07:28:10.0926-05:00</Time>
+      <Time>2014-12-15T07:25:56.0774-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Beam.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Beam.xnb</Output>
-      <Time>2014-12-12T07:28:09.7366-05:00</Time>
+      <Time>2014-12-15T07:25:56.0604-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\BeamBlurred.png</Source>
@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\BeamBlurred.xnb</Output>
-      <Time>2014-12-12T07:28:09.7376-05:00</Time>
+      <Time>2014-12-15T07:25:56.0604-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Cloud001.png</Source>
@@ -44,7 +44,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Cloud001.xnb</Output>
-      <Time>2014-12-12T07:28:09.7386-05:00</Time>
+      <Time>2014-12-15T07:25:56.0604-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Cloud002.png</Source>
@@ -53,7 +53,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Cloud002.xnb</Output>
-      <Time>2014-12-12T07:28:09.7556-05:00</Time>
+      <Time>2014-12-15T07:25:56.0614-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Cloud003.png</Source>
@@ -62,7 +62,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Cloud003.xnb</Output>
-      <Time>2014-12-12T07:28:09.7566-05:00</Time>
+      <Time>2014-12-15T07:25:56.0624-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Cloud004.png</Source>
@@ -71,7 +71,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Cloud004.xnb</Output>
-      <Time>2014-12-12T07:28:09.7926-05:00</Time>
+      <Time>2014-12-15T07:25:56.0624-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Flame.png</Source>
@@ -80,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Flame.xnb</Output>
-      <Time>2014-12-12T07:28:09.7936-05:00</Time>
+      <Time>2014-12-15T07:25:56.0634-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\FlowerBurst.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\FlowerBurst.xnb</Output>
-      <Time>2014-12-12T07:28:09.8026-05:00</Time>
+      <Time>2014-12-15T07:25:56.0634-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Laser.png</Source>
@@ -98,7 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Laser.xnb</Output>
-      <Time>2014-12-12T07:28:09.8036-05:00</Time>
+      <Time>2014-12-15T07:25:56.0634-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\LensFlare.png</Source>
@@ -107,7 +107,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\LensFlare.xnb</Output>
-      <Time>2014-12-12T07:28:09.8036-05:00</Time>
+      <Time>2014-12-15T07:25:56.0634-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\light.png</Source>
@@ -116,7 +116,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\light.xnb</Output>
-      <Time>2014-12-12T07:28:10.0736-05:00</Time>
+      <Time>2014-12-15T07:25:56.0754-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\MultiDot.png</Source>
@@ -125,7 +125,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\MultiDot.xnb</Output>
-      <Time>2014-12-12T07:28:09.8046-05:00</Time>
+      <Time>2014-12-15T07:25:56.0644-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle001.png</Source>
@@ -134,7 +134,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle001.xnb</Output>
-      <Time>2014-12-12T07:28:09.8526-05:00</Time>
+      <Time>2014-12-15T07:25:56.0644-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle002.png</Source>
@@ -143,7 +143,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle002.xnb</Output>
-      <Time>2014-12-12T07:28:09.8526-05:00</Time>
+      <Time>2014-12-15T07:25:56.0654-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle003.png</Source>
@@ -152,7 +152,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle003.xnb</Output>
-      <Time>2014-12-12T07:28:09.8536-05:00</Time>
+      <Time>2014-12-15T07:25:56.0654-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle004.png</Source>
@@ -161,7 +161,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle004.xnb</Output>
-      <Time>2014-12-12T07:28:09.8536-05:00</Time>
+      <Time>2014-12-15T07:25:56.0654-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle005.png</Source>
@@ -170,7 +170,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle005.xnb</Output>
-      <Time>2014-12-12T07:28:09.8966-05:00</Time>
+      <Time>2014-12-15T07:25:56.0664-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle006.png</Source>
@@ -179,7 +179,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle006.xnb</Output>
-      <Time>2014-12-12T07:28:09.8976-05:00</Time>
+      <Time>2014-12-15T07:25:56.0664-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle007.png</Source>
@@ -188,7 +188,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle007.xnb</Output>
-      <Time>2014-12-12T07:28:09.8986-05:00</Time>
+      <Time>2014-12-15T07:25:56.0674-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\pause.png</Source>
@@ -197,7 +197,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\pause.xnb</Output>
-      <Time>2014-12-12T07:28:10.0746-05:00</Time>
+      <Time>2014-12-15T07:25:56.0764-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Ring001.png</Source>
@@ -206,7 +206,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Ring001.xnb</Output>
-      <Time>2014-12-12T07:28:09.8996-05:00</Time>
+      <Time>2014-12-15T07:25:56.0674-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Ring002.png</Source>
@@ -215,7 +215,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Ring002.xnb</Output>
-      <Time>2014-12-12T07:28:09.9326-05:00</Time>
+      <Time>2014-12-15T07:25:56.0674-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\SoftClumpy.png</Source>
@@ -224,7 +224,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\SoftClumpy.xnb</Output>
-      <Time>2014-12-12T07:28:09.9346-05:00</Time>
+      <Time>2014-12-15T07:25:56.0684-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\SoftSmokey.png</Source>
@@ -233,7 +233,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\SoftSmokey.xnb</Output>
-      <Time>2014-12-12T07:28:09.9346-05:00</Time>
+      <Time>2014-12-15T07:25:56.0684-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Spikey001.png</Source>
@@ -242,7 +242,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Spikey001.xnb</Output>
-      <Time>2014-12-12T07:28:09.9356-05:00</Time>
+      <Time>2014-12-15T07:25:56.0694-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Spikey002.png</Source>
@@ -251,7 +251,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Spikey002.xnb</Output>
-      <Time>2014-12-12T07:28:10.0066-05:00</Time>
+      <Time>2014-12-15T07:25:56.0704-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Splash.png</Source>
@@ -260,7 +260,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Splash.xnb</Output>
-      <Time>2014-12-12T07:28:10.0076-05:00</Time>
+      <Time>2014-12-15T07:25:56.0704-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Spray001.png</Source>
@@ -269,7 +269,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Spray001.xnb</Output>
-      <Time>2014-12-12T07:28:10.0086-05:00</Time>
+      <Time>2014-12-15T07:25:56.0714-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\SpriteSheet.png</Source>
@@ -278,7 +278,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
-      <Time>2014-12-12T07:28:10.0116-05:00</Time>
+      <Time>2014-12-15T07:25:56.0724-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Star.png</Source>
@@ -287,7 +287,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Star.xnb</Output>
-      <Time>2014-12-12T07:28:10.0526-05:00</Time>
+      <Time>2014-12-15T07:25:56.0734-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Water001.png</Source>
@@ -296,7 +296,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Water001.xnb</Output>
-      <Time>2014-12-12T07:28:10.0536-05:00</Time>
+      <Time>2014-12-15T07:25:56.0734-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Water002.png</Source>
@@ -305,7 +305,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Water002.xnb</Output>
-      <Time>2014-12-12T07:28:10.0536-05:00</Time>
+      <Time>2014-12-15T07:25:56.0734-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Weeds.png</Source>
@@ -314,7 +314,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Weeds.xnb</Output>
-      <Time>2014-12-12T07:28:10.0536-05:00</Time>
+      <Time>2014-12-15T07:25:56.0744-05:00</Time>
     </Item>
     <Item>
       <Source>Sheet.png</Source>
@@ -323,7 +323,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Sheet.xnb</Output>
-      <Time>2014-12-12T07:28:09.6876-05:00</Time>
+      <Time>2014-12-15T07:36:54.7474-05:00</Time>
     </Item>
     <Item>
       <Source>ToolTip.png</Source>
@@ -332,223 +332,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\ToolTip.xnb</Output>
-      <Time>2014-12-12T07:28:10.0756-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\BasicExplosion.xml</Source>
-      <Name>EffectLibrary\BasicExplosion</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicExplosion.xnb</Output>
-      <Time>2014-12-12T07:28:09.1816-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\BasicExplosionWithHalo.xml</Source>
-      <Name>EffectLibrary\BasicExplosionWithHalo</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithHalo.xnb</Output>
-      <Time>2014-12-12T07:28:09.1816-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\BasicExplosionWithTrails2.xml</Source>
-      <Name>EffectLibrary\BasicExplosionWithTrails2</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithTrails2.xnb</Output>
-      <Time>2014-12-12T07:28:09.3246-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\BasicFireball.xml</Source>
-      <Name>EffectLibrary\BasicFireball</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicFireball.xnb</Output>
-      <Time>2014-12-12T07:28:09.3256-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\BasicSmokePlume.xml</Source>
-      <Name>EffectLibrary\BasicSmokePlume</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicSmokePlume.xnb</Output>
-      <Time>2014-12-12T07:28:09.3266-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\BeamMeUp.xml</Source>
-      <Name>EffectLibrary\BeamMeUp</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BeamMeUp.xnb</Output>
-      <Time>2014-12-12T07:28:09.3266-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\CampFire.xml</Source>
-      <Name>EffectLibrary\CampFire</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\CampFire.xnb</Output>
-      <Time>2014-12-12T07:28:09.3416-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\Enemy Cannon Fire.xml</Source>
-      <Name>EffectLibrary\Enemy Cannon Fire</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\Enemy Cannon Fire.xnb</Output>
-      <Time>2014-12-12T07:28:09.3426-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\FlowerBloom.xml</Source>
-      <Name>EffectLibrary\FlowerBloom</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\FlowerBloom.xnb</Output>
-      <Time>2014-12-12T07:28:09.3426-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\MagicTrail.xml</Source>
-      <Name>EffectLibrary\MagicTrail</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\MagicTrail.xnb</Output>
-      <Time>2014-12-12T07:28:09.3436-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\MeteroidCollision.xml</Source>
-      <Name>EffectLibrary\MeteroidCollision</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\MeteroidCollision.xnb</Output>
-      <Time>2014-12-12T07:28:09.4546-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\MeteroidExplode.xml</Source>
-      <Name>EffectLibrary\MeteroidExplode</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\MeteroidExplode.xnb</Output>
-      <Time>2014-12-12T07:28:09.5386-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\Paparazzi.xml</Source>
-      <Name>EffectLibrary\Paparazzi</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\Paparazzi.xnb</Output>
-      <Time>2014-12-12T07:28:09.6136-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\PulseTracker.xml</Source>
-      <Name>EffectLibrary\PulseTracker</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\PulseTracker.xnb</Output>
-      <Time>2014-12-12T07:28:09.6776-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\ShieldBounce.xml</Source>
-      <Name>EffectLibrary\ShieldBounce</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\ShieldBounce.xnb</Output>
-      <Time>2014-12-12T07:28:09.6776-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\ShieldsUp.xml</Source>
-      <Name>EffectLibrary\ShieldsUp</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\ShieldsUp.xnb</Output>
-      <Time>2014-12-12T07:28:09.6786-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\Ship Cannon Fire.xml</Source>
-      <Name>EffectLibrary\Ship Cannon Fire</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\Ship Cannon Fire.xnb</Output>
-      <Time>2014-12-12T07:28:09.6796-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\ShipSmokeTrail.xml</Source>
-      <Name>EffectLibrary\ShipSmokeTrail</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\ShipSmokeTrail.xnb</Output>
-      <Time>2014-12-12T07:28:09.6806-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\SimpleRain.xml</Source>
-      <Name>EffectLibrary\SimpleRain</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\SimpleRain.xnb</Output>
-      <Time>2014-12-12T07:28:09.6826-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\StarFireImpact.xml</Source>
-      <Name>EffectLibrary\StarFireImpact</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\StarFireImpact.xnb</Output>
-      <Time>2014-12-12T07:28:09.6826-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\StarTrail.xml</Source>
-      <Name>EffectLibrary\StarTrail</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\StarTrail.xnb</Output>
-      <Time>2014-12-12T07:28:09.6836-05:00</Time>
-    </Item>
-    <Item>
-      <Source>EffectLibrary\WaterJet.xml</Source>
-      <Name>EffectLibrary\WaterJet</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\WaterJet.xnb</Output>
-      <Time>2014-12-12T07:28:09.6846-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Pericles14.spritefont</Source>
-      <Name>Pericles14</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Pericles14.xnb</Output>
-      <Time>2014-12-12T07:28:09.6856-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Pericles2.spritefont</Source>
-      <Name>Pericles2</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Pericles2.xnb</Output>
-      <Time>2014-12-12T07:28:09.6866-05:00</Time>
+      <Time>2014-12-15T07:25:56.0774-05:00</Time>
     </Item>
     <Item>
       <Source>buttons.jpg</Source>
@@ -557,7 +341,241 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\buttons.xnb</Output>
-      <Time>2014-12-12T07:39:06.9916-05:00</Time>
+      <Time>2014-12-15T07:25:56.0774-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\BasicExplosion.xml</Source>
+      <Name>EffectLibrary\BasicExplosion</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicExplosion.xnb</Output>
+      <Time>2014-12-15T07:25:56.0494-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\BasicExplosionWithHalo.xml</Source>
+      <Name>EffectLibrary\BasicExplosionWithHalo</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithHalo.xnb</Output>
+      <Time>2014-12-15T07:25:56.0504-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\BasicExplosionWithTrails2.xml</Source>
+      <Name>EffectLibrary\BasicExplosionWithTrails2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithTrails2.xnb</Output>
+      <Time>2014-12-15T07:25:56.0514-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\BasicFireball.xml</Source>
+      <Name>EffectLibrary\BasicFireball</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicFireball.xnb</Output>
+      <Time>2014-12-15T07:25:56.0514-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\BasicSmokePlume.xml</Source>
+      <Name>EffectLibrary\BasicSmokePlume</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicSmokePlume.xnb</Output>
+      <Time>2014-12-15T07:25:56.0514-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\BeamMeUp.xml</Source>
+      <Name>EffectLibrary\BeamMeUp</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BeamMeUp.xnb</Output>
+      <Time>2014-12-15T07:25:56.0524-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\CampFire.xml</Source>
+      <Name>EffectLibrary\CampFire</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\CampFire.xnb</Output>
+      <Time>2014-12-15T07:25:56.0524-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\Enemy Cannon Fire.xml</Source>
+      <Name>EffectLibrary\Enemy Cannon Fire</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\Enemy Cannon Fire.xnb</Output>
+      <Time>2014-12-15T07:25:56.0524-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\FlowerBloom.xml</Source>
+      <Name>EffectLibrary\FlowerBloom</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\FlowerBloom.xnb</Output>
+      <Time>2014-12-15T07:25:56.0534-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\MagicTrail.xml</Source>
+      <Name>EffectLibrary\MagicTrail</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\MagicTrail.xnb</Output>
+      <Time>2014-12-15T07:25:56.0534-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\MeteroidCollision.xml</Source>
+      <Name>EffectLibrary\MeteroidCollision</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\MeteroidCollision.xnb</Output>
+      <Time>2014-12-15T07:25:56.0534-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\MeteroidExplode.xml</Source>
+      <Name>EffectLibrary\MeteroidExplode</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\MeteroidExplode.xnb</Output>
+      <Time>2014-12-15T07:25:56.0544-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\Paparazzi.xml</Source>
+      <Name>EffectLibrary\Paparazzi</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\Paparazzi.xnb</Output>
+      <Time>2014-12-15T07:25:56.0544-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\PulseTracker.xml</Source>
+      <Name>EffectLibrary\PulseTracker</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\PulseTracker.xnb</Output>
+      <Time>2014-12-15T07:25:56.0544-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\ShieldBounce.xml</Source>
+      <Name>EffectLibrary\ShieldBounce</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\ShieldBounce.xnb</Output>
+      <Time>2014-12-15T07:25:56.0554-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\ShieldsUp.xml</Source>
+      <Name>EffectLibrary\ShieldsUp</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\ShieldsUp.xnb</Output>
+      <Time>2014-12-15T07:25:56.0554-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\Ship Cannon Fire.xml</Source>
+      <Name>EffectLibrary\Ship Cannon Fire</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\Ship Cannon Fire.xnb</Output>
+      <Time>2014-12-15T07:25:56.0554-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\ShipSmokeTrail.xml</Source>
+      <Name>EffectLibrary\ShipSmokeTrail</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\ShipSmokeTrail.xnb</Output>
+      <Time>2014-12-15T07:25:56.0564-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\SimpleRain.xml</Source>
+      <Name>EffectLibrary\SimpleRain</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\SimpleRain.xnb</Output>
+      <Time>2014-12-15T07:25:56.0574-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\StarFireImpact.xml</Source>
+      <Name>EffectLibrary\StarFireImpact</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\StarFireImpact.xnb</Output>
+      <Time>2014-12-15T07:25:56.0574-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\StarTrail.xml</Source>
+      <Name>EffectLibrary\StarTrail</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\StarTrail.xnb</Output>
+      <Time>2014-12-15T07:25:56.0574-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\WaterJet.xml</Source>
+      <Name>EffectLibrary\WaterJet</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\WaterJet.xnb</Output>
+      <Time>2014-12-15T07:25:56.0584-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Pericles14.spritefont</Source>
+      <Name>Pericles14</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Pericles14.xnb</Output>
+      <Time>2014-12-15T07:25:56.0584-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Pericles2.spritefont</Source>
+      <Name>Pericles2</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Pericles2.xnb</Output>
+      <Time>2014-12-15T07:25:56.0594-05:00</Time>
+    </Item>
+    <Item>
+      <Source>backdrop.png</Source>
+      <Name>backdrop</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\backdrop.xnb</Output>
+      <Time>2014-12-15T08:33:58.0344-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MainScreen.png</Source>
+      <Name>MainScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\MainScreen.xnb</Output>
+      <Time>2014-12-15T08:37:40.9154-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -573,7 +591,7 @@
     <Assemblies>
       <Assembly>
         <Key>C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\ProjectMercury.ContentPipeline.dll</Key>
-        <Value>2014-12-12T07:28:10.1446-05:00</Value>
+        <Value>2014-12-15T07:25:56.0834-05:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>

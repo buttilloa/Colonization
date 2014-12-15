@@ -35,6 +35,7 @@ Content\Textures\Water002.xnb
 Content\Textures\Weeds.xnb
 Content\Sheet.xnb
 Content\ToolTip.xnb
+Content\buttons.xnb
 Content\EffectLibrary\BasicExplosion.xnb
 Content\EffectLibrary\BasicExplosionWithHalo.xnb
 Content\EffectLibrary\BasicExplosionWithTrails2.xnb
@@ -59,4 +60,5 @@ Content\EffectLibrary\StarTrail.xnb
 Content\EffectLibrary\WaterJet.xnb
 Content\Pericles14.xnb
 Content\Pericles2.xnb
-Content\buttons.xnb
+Content\backdrop.xnb
+Content\MainScreen.xnb

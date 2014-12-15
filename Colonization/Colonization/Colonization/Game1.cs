@@ -19,6 +19,8 @@ namespace Colonization
         enum GameStates {TitleScreen, Intermission , DuringWave, GameOver, Settings};
         GameStates state = GameStates.TitleScreen;
         Texture2D titleScreen;
+        Texture2D backdrop;
+        Texture2D mainscreen;
         Texture2D cursorSheet;
         Texture2D tooltipSheet;
         Texture2D WeaponShelterSheet;
@@ -29,6 +31,9 @@ namespace Colonization
         public static int WoodCount=0,StoneCount = 0,IronCount = 0,Wave =0;
         public static double TimeHour = 12;
         public static double TimeMinutes = 00;
+        public static double TimeSeconds = 00;
+        playermanager player;
+        
         bool isAM = true;
 
 
@@ -68,6 +73,8 @@ namespace Colonization
             spriteBatch = new SpriteBatch(GraphicsDevice);
             
             titleScreen = Content.Load<Texture2D>(@"TitleScreen");
+            backdrop = Content.Load<Texture2D>(@"backdrop");
+            mainscreen = Content.Load<Texture2D>(@"MainScreen");
             WeaponShelterSheet = Content.Load<Texture2D>(@"Sheet");
             cursorSheet = Content.Load<Texture2D>(@"cursor");
             tooltipSheet = Content.Load<Texture2D>(@"ToolTip");
@@ -78,6 +85,7 @@ namespace Colonization
             pericles2 = Content.Load<SpriteFont>(@"Pericles2");
             weaponManager = new WeaponManager(WeaponShelterSheet);
             shelterManager =new ShelterManager(WeaponShelterSheet);
+            player = new playermanager(WeaponShelterSheet);
             ToolTip.AssignTexture(tooltipSheet);
             // TODO: use this.Content to load your game content here
         }
@@ -106,8 +114,14 @@ namespace Colonization
                 Console.WriteLine("YAYYY");
             if (OptionsButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
                 state = GameStates.Settings;
+            player.update(gameTime);
+            if (TimeSeconds >= 55)
+            {
+                TimeMinutes++;
+                TimeSeconds = 0;
+            }
             if (TimeMinutes < 60)
-                TimeMinutes += 1;
+                TimeSeconds += 1;
             else
             {
                 if (TimeHour == 12)
@@ -146,16 +160,23 @@ namespace Colonization
                  Color.White);
              if (state == GameStates.Intermission || state == GameStates.DuringWave)
              {
+                 spriteBatch.Draw(backdrop, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.Yellow);
+                 spriteBatch.Draw(mainscreen, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
                  shelterManager.Draw(spriteBatch);
                  weaponManager.Draw(spriteBatch);
                  spriteBatch.DrawString(pericles14, "Wood: "+WoodCount, new Vector2(687, 10), Color.White);
                  spriteBatch.DrawString(pericles14, "Stone: " + StoneCount, new Vector2(685, 25), Color.White);
                  spriteBatch.DrawString(pericles14, "iron: " + IronCount, new Vector2(700, 40), Color.White);
                  spriteBatch.DrawString(pericles14, "Wave: " + Wave, new Vector2(365, 10), Color.White);
+                 player.Player.Draw(spriteBatch);
                  if(isAM)
-                 spriteBatch.DrawString(pericles14, "Time: " + TimeHour+":"+TimeMinutes + " AM", new Vector2(505, 10), Color.White);
+                 if(TimeMinutes <10)
+                     spriteBatch.DrawString(pericles14, "Time: " + TimeHour+":"+"0"+TimeMinutes + " AM", new Vector2(505, 10), Color.White);
+                 else spriteBatch.DrawString(pericles14, "Time: " + TimeHour + ":" +  + TimeMinutes + " AM", new Vector2(505, 10), Color.White);
                  else
-                 spriteBatch.DrawString(pericles14, "Time: " + TimeHour+":"+TimeMinutes+ " PM", new Vector2(505, 10), Color.White);
+                     if (TimeMinutes < 10)
+                         spriteBatch.DrawString(pericles14, "Time: " + TimeHour + ":" + "0" + TimeMinutes + " PM", new Vector2(505, 10), Color.White);
+                     else spriteBatch.DrawString(pericles14, "Time: " + TimeHour + ":" + +TimeMinutes + " PM", new Vector2(505, 10), Color.White);
              }
             //EffectManager.Draw(); 
              ToolTip.drawToolTip(spriteBatch,pericles2);
