@@ -32,7 +32,7 @@ namespace Colonization
         public static double TimeHour = 12;
         public static double TimeMinutes = 00;
         public static double TimeSeconds = 00;
-        playermanager player;
+        PlayerManager player;
         
         bool isAM = true;
 
@@ -46,6 +46,7 @@ namespace Colonization
             //graphics.PreferredBackBufferHeight = 600;
             //graphics.ApplyChanges();
             Content.RootDirectory = "Content";
+            
         }
 
         /// <summary>
@@ -85,7 +86,7 @@ namespace Colonization
             pericles2 = Content.Load<SpriteFont>(@"Pericles2");
             weaponManager = new WeaponManager(WeaponShelterSheet);
             shelterManager =new ShelterManager(WeaponShelterSheet);
-            player = new playermanager(WeaponShelterSheet);
+            player = new PlayerManager(WeaponShelterSheet);
             ToolTip.AssignTexture(tooltipSheet);
             // TODO: use this.Content to load your game content here
         }
@@ -114,29 +115,35 @@ namespace Colonization
                 Console.WriteLine("YAYYY");
             if (OptionsButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
                 state = GameStates.Settings;
-            player.update(gameTime);
-            if (TimeSeconds >= 55)
+            
+            if (state == GameStates.Intermission || state == GameStates.DuringWave)
             {
-                TimeMinutes++;
-                TimeSeconds = 0;
-            }
-            if (TimeMinutes < 60)
-                TimeSeconds += 1;
-            else
-            {
-                if (TimeHour == 12)
+                if (ms.LeftButton == ButtonState.Pressed)
+                    this.Window.Title = ms.X + " " + ms.Y;
+                player.update(gameTime);
+                if (TimeSeconds >= 55)
                 {
-                    TimeHour = 1;
-                    if (isAM) isAM = false;
-                    else isAM = true;
+                    TimeMinutes++;
+                    TimeSeconds = 0;
                 }
+                if (TimeMinutes < 60)
+                    TimeSeconds += 1;
                 else
-                    TimeHour++;
-                TimeMinutes = 01;
+                {
+                    if (TimeHour == 12)
+                    {
+                        TimeHour = 1;
+                        if (isAM) isAM = false;
+                        else isAM = true;
+                    }
+                    else
+                        TimeHour++;
+                    TimeMinutes = 01;
+                }
+                weaponManager.Update(gameTime, ms);
+                shelterManager.Update(gameTime, ms);
+                //EffectManager.Update(gameTime);
             }
-            weaponManager.Update(gameTime,ms);
-            shelterManager.Update(gameTime,ms);
-            //EffectManager.Update(gameTime);
             base.Update(gameTime);
         }
 

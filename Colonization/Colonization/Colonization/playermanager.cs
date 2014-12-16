@@ -8,20 +8,45 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Colonization
 {
-    class playermanager
+    class PlayerManager
     {
         public Sprite Player;
-        public playermanager(Texture2D sheet)
+        Random randy = new Random();
+        int moving = -1; // 0 down 1 right 2 up 3 left
+        int timer = 0;
+        public PlayerManager(Texture2D sheet)
         {
             Player = new Sprite(new Vector2(300, 300), sheet, new Rectangle(2, 292, 43, 102), new Vector2(0,0));
             Player.AddFrame(new Rectangle(2, 292, 43, 102));
             Player.AddFrame(new Rectangle(2, 292, 43, 102));
             Player.AddFrame(new Rectangle(2, 292, 43, 102));
-            Dance();
+            //Dance();
             
         }
         public void update(GameTime time)
         {
+            if (Player.Location.X <= 100  && Player.Velocity.X <=-1)
+            
+            || Player.Location.Y <= 200 || Player.Location.X >= 700 || Player.Location.Y >= 470)
+                Player.Velocity *= -1;
+            if (moving == -1)
+            {
+                if (timer <= 100)
+                    timer++;
+                else
+                {
+                    timer = 0;
+                    moving = randy.Next(0, 4);
+                }
+            }
+          if (randy.Next(0, 20) == 9)
+               moving = -1;
+          
+            if (moving == 0) Player.Velocity = new Vector2(0, 60);
+          else if (moving == 1) Player.Velocity = new Vector2(60, 0);
+          else if (moving == 2) Player.Velocity = new Vector2(0, -60);
+          else if (moving == 3) Player.Velocity = new Vector2(-60, 0);
+            
             if (Player.Velocity.X > 0) TurnRight();
             else if (Player.Velocity.X < 0) TurnLeft();
             else if (Player.Velocity.Y < 0) TurnUp();
