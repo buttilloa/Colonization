@@ -32,8 +32,9 @@ namespace Colonization
         public static double TimeHour = 12;
         public static double TimeMinutes = 00;
         public static double TimeSeconds = 00;
-        PlayerManager player;
         
+        PlayerManager player;
+        Color[] SkyTint = new Color[] { Color.Black, Color.Black, Color.Black, Color.DimGray, Color.Gray, Color.DarkGray, Color.CornflowerBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.LightGray, Color.LightGray, Color.LightGray, Color.DarkGray, Color.DimGray, Color.Black };
         bool isAM = true;
 
 
@@ -80,6 +81,7 @@ namespace Colonization
             cursorSheet = Content.Load<Texture2D>(@"cursor");
             tooltipSheet = Content.Load<Texture2D>(@"ToolTip");
             Cursor = new Sprite(Vector2.Zero, cursorSheet, new Rectangle(0, 0, 13, 20), Vector2.Zero);
+           
             //EffectManager.Initialize(graphics, Content);
             //EffectManager.LoadContent();
             pericles14 = Content.Load<SpriteFont>(@"Pericles14");
@@ -109,21 +111,23 @@ namespace Colonization
         {
             MouseState ms = Mouse.GetState();
             Cursor.Location = new Vector2(ms.X, ms.Y);
-            if (StartButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
-                state = GameStates.Intermission;
-            if (nothingButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
-                Console.WriteLine("YAYYY");
-            if (OptionsButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
-                state = GameStates.Settings;
-            
+           
+            if (state == GameStates.TitleScreen)
+            {
+                if (StartButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
+                    state = GameStates.Intermission;
+                if (nothingButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
+                    Console.WriteLine("YAYYY");
+                if (OptionsButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
+                    state = GameStates.Settings;
+            }
             if (state == GameStates.Intermission || state == GameStates.DuringWave)
             {
-                if (ms.LeftButton == ButtonState.Pressed)
-                    this.Window.Title = ms.X + " " + ms.Y;
+               
                 player.update(gameTime);
                 if (TimeSeconds >= 55)
                 {
-                    TimeMinutes++;
+                    TimeMinutes+=60;
                     TimeSeconds = 0;
                 }
                 if (TimeMinutes < 60)
@@ -167,7 +171,8 @@ namespace Colonization
                  Color.White);
              if (state == GameStates.Intermission || state == GameStates.DuringWave)
              {
-                 spriteBatch.Draw(backdrop, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.Yellow);
+                 if(isAM)spriteBatch.Draw(backdrop, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), SkyTint[(int)TimeHour-1]);
+                 else spriteBatch.Draw(backdrop, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), SkyTint[(int)TimeHour+10]);
                  spriteBatch.Draw(mainscreen, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
                  shelterManager.Draw(spriteBatch);
                  weaponManager.Draw(spriteBatch);

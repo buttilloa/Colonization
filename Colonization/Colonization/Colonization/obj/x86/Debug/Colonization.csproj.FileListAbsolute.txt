@@ -104,28 +104,6 @@ C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\
 C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Water002.xnb
 C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Weeds.xnb
 C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Sheet.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicExplosion.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithHalo.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithTrails2.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicFireball.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicSmokePlume.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BeamMeUp.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\CampFire.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\Enemy Cannon Fire.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\FlowerBloom.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\MagicTrail.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\MeteroidCollision.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\MeteroidExplode.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\Paparazzi.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\PulseTracker.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\ShieldBounce.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\ShieldsUp.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\Ship Cannon Fire.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\ShipSmokeTrail.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\SimpleRain.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\StarFireImpact.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\StarTrail.xnb
-C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\WaterJet.xnb
 C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Pericles14.xnb
 C:\Users\eahscs\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\ProjectMercury.dll
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\ToolTip.xnb

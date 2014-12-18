@@ -16,7 +16,7 @@ namespace Colonization
         int timer = 0;
         public PlayerManager(Texture2D sheet)
         {
-            Player = new Sprite(new Vector2(300, 300), sheet, new Rectangle(2, 292, 43, 102), new Vector2(0,0));
+            Player = new Sprite(new Vector2(300, 248), sheet, new Rectangle(2, 292, 43, 102), new Vector2(0,0));
             Player.AddFrame(new Rectangle(2, 292, 43, 102));
             Player.AddFrame(new Rectangle(2, 292, 43, 102));
             Player.AddFrame(new Rectangle(2, 292, 43, 102));
@@ -25,10 +25,11 @@ namespace Colonization
         }
         public void update(GameTime time)
         {
-            if (Player.Location.X <= 100  && Player.Velocity.X <=-1)
-            
-            || Player.Location.Y <= 200 || Player.Location.X >= 700 || Player.Location.Y >= 470)
-                Player.Velocity *= -1;
+            if(Player.Location.X <= 100  && Player.Velocity.X <=-1)
+                Player.Velocity = new Vector2(60,0);
+            if(Player.Location.X >= 700  && Player.Velocity.X >=-1)
+                Player.Velocity = new Vector2(-60,0);
+          
             if (moving == -1)
             {
                 if (timer <= 100)
@@ -36,14 +37,14 @@ namespace Colonization
                 else
                 {
                     timer = 0;
-                    moving = randy.Next(0, 4);
+                    moving = randy.Next(0, 2);
                 }
             }
           if (randy.Next(0, 20) == 9)
                moving = -1;
           
-            if (moving == 0) Player.Velocity = new Vector2(0, 60);
-          else if (moving == 1) Player.Velocity = new Vector2(60, 0);
+            if (moving == 0) Player.Velocity = new Vector2(60, 0);
+          else if (moving == 1) Player.Velocity = new Vector2(-60, 0);
           else if (moving == 2) Player.Velocity = new Vector2(0, -60);
           else if (moving == 3) Player.Velocity = new Vector2(-60, 0);
             
