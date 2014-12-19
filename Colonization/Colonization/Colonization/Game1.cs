@@ -8,6 +8,9 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using xTile;
+using xTile.Dimensions;
+using xTile.Display;
 
 namespace Colonization
 {
@@ -16,6 +19,9 @@ namespace Colonization
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Map mine;
+        IDisplayDevice mapDisplayDevice;
+        xTile.Dimensions.Rectangle viewport;
         enum GameStates {TitleScreen, Intermission , DuringWave, GameOver, Settings};
         GameStates state = GameStates.TitleScreen;
         Texture2D titleScreen;
@@ -38,9 +44,9 @@ namespace Colonization
         bool isAM = true;
 
 
-        Rectangle StartButton =   new Rectangle(331, 260, 150, 50);
-        Rectangle nothingButton = new Rectangle(74, 292, 150, 50);
-        Rectangle OptionsButton = new Rectangle(579, 291, 150, 50);
+        Microsoft.Xna.Framework.Rectangle StartButton = new Microsoft.Xna.Framework.Rectangle(331, 260, 150, 50);
+        Microsoft.Xna.Framework.Rectangle nothingButton = new Microsoft.Xna.Framework.Rectangle(74, 292, 150, 50);
+        Microsoft.Xna.Framework.Rectangle OptionsButton = new Microsoft.Xna.Framework.Rectangle(579, 291, 150, 50);
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -61,6 +67,11 @@ namespace Colonization
             // TODO: Add your initialization logic here
            // this.IsMouseVisible = true;
             base.Initialize();
+            mapDisplayDevice = new XnaDisplayDevice(this.Content, this.GraphicsDevice);
+            mine.LoadTileSheets(mapDisplayDevice);
+            mine.Layers[0].Visible = true;
+            viewport = new xTile.Dimensions.Rectangle(new Size(800, 600));
+            
           
           
         }
@@ -73,14 +84,14 @@ namespace Colonization
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            
+            mine = Content.Load<Map>("MineMap");
             titleScreen = Content.Load<Texture2D>(@"TitleScreen");
             backdrop = Content.Load<Texture2D>(@"backdrop");
             mainscreen = Content.Load<Texture2D>(@"MainScreen");
             WeaponShelterSheet = Content.Load<Texture2D>(@"Sheet");
             cursorSheet = Content.Load<Texture2D>(@"cursor");
             tooltipSheet = Content.Load<Texture2D>(@"ToolTip");
-            Cursor = new Sprite(Vector2.Zero, cursorSheet, new Rectangle(0, 0, 13, 20), Vector2.Zero);
+            Cursor = new Sprite(Vector2.Zero, cursorSheet, new Microsoft.Xna.Framework.Rectangle(0, 0, 13, 20), Vector2.Zero);
            
             //EffectManager.Initialize(graphics, Content);
             //EffectManager.LoadContent();
@@ -127,7 +138,7 @@ namespace Colonization
                 player.update(gameTime);
                 if (TimeSeconds >= 55)
                 {
-                    TimeMinutes+=60;
+                    TimeMinutes++; ;
                     TimeSeconds = 0;
                 }
                 if (TimeMinutes < 60)
@@ -146,7 +157,8 @@ namespace Colonization
                 }
                 weaponManager.Update(gameTime, ms);
                 shelterManager.Update(gameTime, ms);
-                //EffectManager.Update(gameTime);
+                mine.Update(gameTime.ElapsedGameTime.Milliseconds);
+               
             }
             base.Update(gameTime);
         }
@@ -161,7 +173,7 @@ namespace Colonization
              spriteBatch.Begin();
             
             if (state == GameStates.TitleScreen)
-            spriteBatch.Draw(titleScreen, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
+                spriteBatch.Draw(titleScreen, new Microsoft.Xna.Framework.Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
            
              if (state == GameStates.Settings)
                  spriteBatch.DrawString(
@@ -171,9 +183,12 @@ namespace Colonization
                  Color.White);
              if (state == GameStates.Intermission || state == GameStates.DuringWave)
              {
-                 if(isAM)spriteBatch.Draw(backdrop, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), SkyTint[(int)TimeHour-1]);
-                 else spriteBatch.Draw(backdrop, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), SkyTint[(int)TimeHour+10]);
-                 spriteBatch.Draw(mainscreen, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
+                 if (isAM) spriteBatch.Draw(backdrop, new Microsoft.Xna.Framework.Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), SkyTint[(int)TimeHour - 1]);
+                 else spriteBatch.Draw(backdrop, new Microsoft.Xna.Framework.Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), SkyTint[(int)TimeHour + 10]);
+                 spriteBatch.Draw(mainscreen, new Microsoft.Xna.Framework.Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
+                 spriteBatch.Draw(WeaponShelterSheet, new Vector2(300, 300), new Microsoft.Xna.Framework.Rectangle(0, 97, 49, 49), Color.White);
+                 mine.Draw(mapDisplayDevice,viewport);
+                 
                  shelterManager.Draw(spriteBatch);
                  weaponManager.Draw(spriteBatch);
                  spriteBatch.DrawString(pericles14, "Wood: "+WoodCount, new Vector2(687, 10), Color.White);
@@ -189,7 +204,8 @@ namespace Colonization
                      if (TimeMinutes < 10)
                          spriteBatch.DrawString(pericles14, "Time: " + TimeHour + ":" + "0" + TimeMinutes + " PM", new Vector2(505, 10), Color.White);
                      else spriteBatch.DrawString(pericles14, "Time: " + TimeHour + ":" + +TimeMinutes + " PM", new Vector2(505, 10), Color.White);
-             }
+             
+                 }
             //EffectManager.Draw(); 
              ToolTip.drawToolTip(spriteBatch,pericles2);
             Cursor.Draw(spriteBatch);

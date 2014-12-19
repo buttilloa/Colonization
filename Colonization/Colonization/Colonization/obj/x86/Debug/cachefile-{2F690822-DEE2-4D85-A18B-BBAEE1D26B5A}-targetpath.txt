@@ -35,8 +35,9 @@ Content\Textures\Water002.xnb
 Content\Textures\Weeds.xnb
 Content\Sheet.xnb
 Content\ToolTip.xnb
-Content\buttons.xnb
 Content\backdrop.xnb
 Content\MainScreen.xnb
 Content\Pericles14.xnb
 Content\Pericles2.xnb
+Content\Mine.xnb
+Content\MineMap.xnb

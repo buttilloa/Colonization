@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\TitleScreen.xnb</Output>
-      <Time>2014-12-18T07:28:36.5742-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\TitleScreen.xnb</Output>
+      <Time>2014-12-19T07:29:19.7292-05:00</Time>
     </Item>
     <Item>
       <Source>cursor.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\cursor.xnb</Output>
-      <Time>2014-12-18T07:28:36.5862-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\cursor.xnb</Output>
+      <Time>2014-12-19T07:29:19.7372-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Beam.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Beam.xnb</Output>
-      <Time>2014-12-18T07:28:36.4602-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Beam.xnb</Output>
+      <Time>2014-12-19T07:29:19.6072-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\BeamBlurred.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\BeamBlurred.xnb</Output>
-      <Time>2014-12-18T07:28:36.4632-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\BeamBlurred.xnb</Output>
+      <Time>2014-12-19T07:29:19.6102-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Cloud001.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Cloud001.xnb</Output>
-      <Time>2014-12-18T07:28:36.4652-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Cloud001.xnb</Output>
+      <Time>2014-12-19T07:29:19.6122-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Cloud002.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Cloud002.xnb</Output>
-      <Time>2014-12-18T07:28:36.4702-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Cloud002.xnb</Output>
+      <Time>2014-12-19T07:29:19.6162-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Cloud003.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Cloud003.xnb</Output>
-      <Time>2014-12-18T07:28:36.4732-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Cloud003.xnb</Output>
+      <Time>2014-12-19T07:29:19.6202-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Cloud004.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Cloud004.xnb</Output>
-      <Time>2014-12-18T07:28:36.4762-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Cloud004.xnb</Output>
+      <Time>2014-12-19T07:29:19.6282-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Flame.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Flame.xnb</Output>
-      <Time>2014-12-18T07:28:36.4792-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Flame.xnb</Output>
+      <Time>2014-12-19T07:29:19.6302-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\FlowerBurst.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\FlowerBurst.xnb</Output>
-      <Time>2014-12-18T07:28:36.4812-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\FlowerBurst.xnb</Output>
+      <Time>2014-12-19T07:29:19.6342-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Laser.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Laser.xnb</Output>
-      <Time>2014-12-18T07:28:36.4852-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Laser.xnb</Output>
+      <Time>2014-12-19T07:29:19.6372-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\LensFlare.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\LensFlare.xnb</Output>
-      <Time>2014-12-18T07:28:36.4882-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\LensFlare.xnb</Output>
+      <Time>2014-12-19T07:29:19.6392-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\light.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\light.xnb</Output>
-      <Time>2014-12-18T07:28:36.5652-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\light.xnb</Output>
+      <Time>2014-12-19T07:29:19.7242-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\MultiDot.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\MultiDot.xnb</Output>
-      <Time>2014-12-18T07:28:36.4912-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\MultiDot.xnb</Output>
+      <Time>2014-12-19T07:29:19.6412-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle001.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle001.xnb</Output>
-      <Time>2014-12-18T07:28:36.4932-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle001.xnb</Output>
+      <Time>2014-12-19T07:29:19.6462-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle002.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle002.xnb</Output>
-      <Time>2014-12-18T07:28:36.4962-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle002.xnb</Output>
+      <Time>2014-12-19T07:29:19.6512-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle003.png</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle003.xnb</Output>
-      <Time>2014-12-18T07:28:36.5012-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle003.xnb</Output>
+      <Time>2014-12-19T07:29:19.6542-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle004.png</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle004.xnb</Output>
-      <Time>2014-12-18T07:28:36.5042-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle004.xnb</Output>
+      <Time>2014-12-19T07:29:19.6562-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle005.png</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle005.xnb</Output>
-      <Time>2014-12-18T07:28:36.5062-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle005.xnb</Output>
+      <Time>2014-12-19T07:29:19.6592-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle006.png</Source>
@@ -178,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle006.xnb</Output>
-      <Time>2014-12-18T07:28:36.5082-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle006.xnb</Output>
+      <Time>2014-12-19T07:29:19.6612-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle007.png</Source>
@@ -187,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle007.xnb</Output>
-      <Time>2014-12-18T07:28:36.5102-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Particle007.xnb</Output>
+      <Time>2014-12-19T07:29:19.6632-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\pause.png</Source>
@@ -196,8 +196,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\pause.xnb</Output>
-      <Time>2014-12-18T07:28:36.5712-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\pause.xnb</Output>
+      <Time>2014-12-19T07:29:19.7272-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Ring001.png</Source>
@@ -205,8 +205,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Ring001.xnb</Output>
-      <Time>2014-12-18T07:28:36.5122-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Ring001.xnb</Output>
+      <Time>2014-12-19T07:29:19.6662-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Ring002.png</Source>
@@ -214,8 +214,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Ring002.xnb</Output>
-      <Time>2014-12-18T07:28:36.5152-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Ring002.xnb</Output>
+      <Time>2014-12-19T07:29:19.6692-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\SoftClumpy.png</Source>
@@ -223,8 +223,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\SoftClumpy.xnb</Output>
-      <Time>2014-12-18T07:28:36.5192-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\SoftClumpy.xnb</Output>
+      <Time>2014-12-19T07:29:19.6722-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\SoftSmokey.png</Source>
@@ -232,8 +232,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\SoftSmokey.xnb</Output>
-      <Time>2014-12-18T07:28:36.5222-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\SoftSmokey.xnb</Output>
+      <Time>2014-12-19T07:29:19.6742-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Spikey001.png</Source>
@@ -241,8 +241,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Spikey001.xnb</Output>
-      <Time>2014-12-18T07:28:36.5242-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Spikey001.xnb</Output>
+      <Time>2014-12-19T07:29:19.6762-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Spikey002.png</Source>
@@ -250,8 +250,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Spikey002.xnb</Output>
-      <Time>2014-12-18T07:28:36.5292-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Spikey002.xnb</Output>
+      <Time>2014-12-19T07:29:19.6952-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Splash.png</Source>
@@ -259,8 +259,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Splash.xnb</Output>
-      <Time>2014-12-18T07:28:36.5412-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Splash.xnb</Output>
+      <Time>2014-12-19T07:29:19.7052-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Spray001.png</Source>
@@ -268,8 +268,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Spray001.xnb</Output>
-      <Time>2014-12-18T07:28:36.5442-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Spray001.xnb</Output>
+      <Time>2014-12-19T07:29:19.7072-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\SpriteSheet.png</Source>
@@ -277,8 +277,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
-      <Time>2014-12-18T07:28:36.5472-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
+      <Time>2014-12-19T07:29:19.7102-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Star.png</Source>
@@ -286,8 +286,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Star.xnb</Output>
-      <Time>2014-12-18T07:28:36.5532-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Star.xnb</Output>
+      <Time>2014-12-19T07:29:19.7122-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Water001.png</Source>
@@ -295,8 +295,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Water001.xnb</Output>
-      <Time>2014-12-18T07:28:36.5562-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Water001.xnb</Output>
+      <Time>2014-12-19T07:29:19.7152-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Water002.png</Source>
@@ -304,8 +304,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Water002.xnb</Output>
-      <Time>2014-12-18T07:28:36.5582-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Water002.xnb</Output>
+      <Time>2014-12-19T07:29:19.7172-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Weeds.png</Source>
@@ -313,8 +313,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Weeds.xnb</Output>
-      <Time>2014-12-18T07:28:36.5612-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Weeds.xnb</Output>
+      <Time>2014-12-19T07:29:19.7212-05:00</Time>
     </Item>
     <Item>
       <Source>Sheet.png</Source>
@@ -322,8 +322,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Sheet.xnb</Output>
-      <Time>2014-12-18T07:28:36.4572-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Sheet.xnb</Output>
+      <Time>2014-12-19T08:36:08.8762-05:00</Time>
     </Item>
     <Item>
       <Source>ToolTip.png</Source>
@@ -331,17 +331,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\ToolTip.xnb</Output>
-      <Time>2014-12-18T07:28:36.5772-05:00</Time>
-    </Item>
-    <Item>
-      <Source>buttons.jpg</Source>
-      <Name>buttons</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\buttons.xnb</Output>
-      <Time>2014-12-18T07:28:36.5822-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\ToolTip.xnb</Output>
+      <Time>2014-12-19T07:29:19.7332-05:00</Time>
     </Item>
     <Item>
       <Source>backdrop.png</Source>
@@ -349,8 +340,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\backdrop.xnb</Output>
-      <Time>2014-12-18T07:28:36.5792-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\backdrop.xnb</Output>
+      <Time>2014-12-19T07:29:19.7362-05:00</Time>
     </Item>
     <Item>
       <Source>MainScreen.png</Source>
@@ -358,8 +349,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\MainScreen.xnb</Output>
-      <Time>2014-12-18T07:59:48.7402-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\MainScreen.xnb</Output>
+      <Time>2014-12-19T07:29:19.5802-05:00</Time>
     </Item>
     <Item>
       <Source>Pericles14.spritefont</Source>
@@ -367,8 +358,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Pericles14.xnb</Output>
-      <Time>2014-12-18T07:28:36.4532-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Pericles14.xnb</Output>
+      <Time>2014-12-19T07:29:19.6012-05:00</Time>
     </Item>
     <Item>
       <Source>Pericles2.spritefont</Source>
@@ -376,8 +367,31 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Pericles2.xnb</Output>
-      <Time>2014-12-18T07:28:36.4552-05:00</Time>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Pericles2.xnb</Output>
+      <Time>2014-12-19T07:29:19.6022-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Mine.png</Source>
+      <Name>Mine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Mine.xnb</Output>
+      <Time>2014-12-19T08:12:46.8392-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MineMap.tide</Source>
+      <Name>MineMap</Name>
+      <Importer>TideImporter</Importer>
+      <Processor>TideProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\MineMap.xnb</Output>
+      <Time>2014-12-19T08:11:56.2342-05:00</Time>
+      <Dependency>
+        <Key>Mine.png</Key>
+        <Value>2014-12-19T08:12:46.8392-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Mine.xnb</Request>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -385,15 +399,19 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\ColonizationContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\ColonizationContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\ColonizationContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\ColonizationContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Users\EAHSCS\Desktop\Colonization\Colonization\Colonization\ProjectMercury.ContentPipeline.dll</Key>
-        <Value>2014-12-18T07:28:36.6122-05:00</Value>
+        <Key>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\xTile.Pipeline.dll</Key>
+        <Value>2014-12-19T07:48:14.4912-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\xTile.dll</Key>
+        <Value>2014-12-19T07:48:14.4382-05:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>

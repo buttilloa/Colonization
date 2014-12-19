@@ -40,8 +40,11 @@
     <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
       <Private>False</Private>
     </Reference>
-    <Reference Include="ProjectMercury.ContentPipeline">
-      <HintPath>..\ProjectMercury.ContentPipeline.dll</HintPath>
+    <Reference Include="xTile">
+      <HintPath>..\xTile.dll</HintPath>
+    </Reference>
+    <Reference Include="xTile.Pipeline">
+      <HintPath>..\xTile.Pipeline.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -254,13 +257,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="buttons.jpg">
-      <Name>buttons</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="backdrop.png">
       <Name>backdrop</Name>
       <Importer>TextureImporter</Importer>
@@ -270,6 +266,20 @@
   <ItemGroup>
     <Compile Include="MainScreen.png">
       <Name>MainScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MineMap.tide">
+      <Name>MineMap</Name>
+      <Importer>TideImporter</Importer>
+      <Processor>TideProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mine.png">
+      <Name>Mine</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
