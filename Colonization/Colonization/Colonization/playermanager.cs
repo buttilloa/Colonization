@@ -12,8 +12,9 @@ namespace Colonization
     {
         public Sprite Player;
         Random randy = new Random();
-        int moving = -1; // 0 down 1 right 2 up 3 left
+        int moving = -1; // 0 down 1 right 2 up 3 left -1 none
         int timer = 0;
+       
         public PlayerManager(Texture2D sheet)
         {
             Player = new Sprite(new Vector2(300, 248), sheet, new Rectangle(2, 292, 43, 102), new Vector2(0,0));
@@ -25,24 +26,25 @@ namespace Colonization
         }
         public void update(GameTime time)
         {
-            if(Player.Location.X <= 100  && Player.Velocity.X <=-1)
-                Player.Velocity = new Vector2(60,0);
-            if(Player.Location.X >= 700  && Player.Velocity.X >=-1)
-                Player.Velocity = new Vector2(-60,0);
-          
-            if (moving == -1)
+            if (Game1.state == Game1.GameStates.Intermission || Game1.state == Game1.GameStates.DuringWave)
             {
-                if (timer <= 100)
-                    timer++;
-                else
+                if (Player.Location.X <= 100 && Player.Velocity.X <= -1)
+                 Player.Velocity = new Vector2(60, 0);
+                if (Player.Location.X >= 700 && Player.Velocity.X >= -1)
+                    Player.Velocity = new Vector2(-60, 0);
+                if (moving == -1)
                 {
-                    timer = 0;
-                    moving = randy.Next(0, 2);
+                    if (timer <= 100)
+                        timer++;
+                    else
+                    {
+                        timer = 0;
+                        moving = randy.Next(0, 2);
+                    }
                 }
+                if (randy.Next(0, 20) == 9)
+                    moving = -1;
             }
-          if (randy.Next(0, 20) == 9)
-               moving = -1;
-          
             if (moving == 0) Player.Velocity = new Vector2(60, 0);
           else if (moving == 1) Player.Velocity = new Vector2(-60, 0);
           else if (moving == 2) Player.Velocity = new Vector2(0, -60);
@@ -51,8 +53,20 @@ namespace Colonization
             if (Player.Velocity.X > 0) TurnRight();
             else if (Player.Velocity.X < 0) TurnLeft();
             else if (Player.Velocity.Y < 0) TurnUp();
-            else if (Player.Velocity.Y > 0) TurnDown();
+            else if (Player.Velocity.Y > 0||Player.Velocity.X ==0) TurnDown();
+
+            if (Game1.state == Game1.GameStates.Minning)
+            {
+                if (Player.Location.X <= 2 && Player.Velocity.X <= -1)
+                    Player.Velocity = new Vector2(0, 0);
+                if (Player.Location.X >= 798 && Player.Velocity.X >= -1)
+                    Player.Velocity = new Vector2(0, 0);
             
+                KeyboardState keys = Keyboard.GetState();
+                if (keys.IsKeyDown(Keys.Right) && Player.Location.X < 899) Player.Velocity = new Vector2(100, 0);
+                else if (keys.IsKeyDown(Keys.Left) && Player.Location.X > 1) Player.Velocity = new Vector2(-100, 0);
+                else Player.Velocity = new Vector2(0, 0);
+            }
             Player.Update(time);
         
         }

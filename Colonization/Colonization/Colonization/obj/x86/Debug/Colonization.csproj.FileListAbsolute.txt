@@ -12,29 +12,6 @@ C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\obj\x86\Debug\Colonization.exe
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\obj\x86\Debug\Colonization.pdb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\ProjectMercury.dll
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicExplosion.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithHalo.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithTrails2.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicFireball.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BasicSmokePlume.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\BeamMeUp.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\CampFire.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\Enemy Cannon Fire.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\FlowerBloom.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\MagicTrail.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\MeteroidCollision.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\MeteroidExplode.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\Paparazzi.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\PulseTracker.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\ShieldBounce.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\ShieldsUp.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\Ship Cannon Fire.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\ShipSmokeTrail.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\SimpleRain.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\StarFireImpact.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\StarTrail.xnb
-C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\EffectLibrary\WaterJet.xnb
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Beam.xnb
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\BeamBlurred.xnb
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Textures\Cloud001.xnb
@@ -164,3 +141,9 @@ C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\
 C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\obj\x86\Debug\Colonization.csprojResolveAssemblyReference.cache
 C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Mine.xnb
 C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\MineMap.xnb
+C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\backdrop.xnb
+C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\MainScreen.xnb
+C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\Mine.xnb
+C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\MineMap.xnb
+C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\xTile.dll
+C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\obj\x86\Debug\Colonization.csprojResolveAssemblyReference.cache

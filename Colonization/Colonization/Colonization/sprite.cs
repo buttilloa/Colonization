@@ -42,6 +42,7 @@ namespace Colonization
             get { return location; }
             set { location = value; }
         }
+      
         public Vector2 Velocity
         {
             get { return velocity; }

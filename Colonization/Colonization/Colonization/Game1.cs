@@ -8,9 +8,7 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
-using xTile;
-using xTile.Dimensions;
-using xTile.Display;
+
 
 namespace Colonization
 {
@@ -19,11 +17,9 @@ namespace Colonization
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        Map mine;
-        IDisplayDevice mapDisplayDevice;
-        xTile.Dimensions.Rectangle viewport;
-        enum GameStates {TitleScreen, Intermission , DuringWave, GameOver, Settings};
-        GameStates state = GameStates.TitleScreen;
+       
+        public enum GameStates {TitleScreen, Intermission , DuringWave, GameOver, Settings,Minning};
+        public static GameStates state = GameStates.TitleScreen;
         Texture2D titleScreen;
         Texture2D backdrop;
         Texture2D mainscreen;
@@ -38,6 +34,7 @@ namespace Colonization
         public static double TimeHour = 12;
         public static double TimeMinutes = 00;
         public static double TimeSeconds = 00;
+        MineManager mineManager;
         
         PlayerManager player;
         Color[] SkyTint = new Color[] { Color.Black, Color.Black, Color.Black, Color.DimGray, Color.Gray, Color.DarkGray, Color.CornflowerBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.SkyBlue, Color.LightGray, Color.LightGray, Color.LightGray, Color.DarkGray, Color.DimGray, Color.Black };
@@ -67,10 +64,7 @@ namespace Colonization
             // TODO: Add your initialization logic here
            // this.IsMouseVisible = true;
             base.Initialize();
-            mapDisplayDevice = new XnaDisplayDevice(this.Content, this.GraphicsDevice);
-            mine.LoadTileSheets(mapDisplayDevice);
-            mine.Layers[0].Visible = true;
-            viewport = new xTile.Dimensions.Rectangle(new Size(800, 600));
+          
             
           
           
@@ -84,7 +78,7 @@ namespace Colonization
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            mine = Content.Load<Map>("MineMap");
+            mineManager = new MineManager(this.Content, this.GraphicsDevice);
             titleScreen = Content.Load<Texture2D>(@"TitleScreen");
             backdrop = Content.Load<Texture2D>(@"backdrop");
             mainscreen = Content.Load<Texture2D>(@"MainScreen");
@@ -93,14 +87,15 @@ namespace Colonization
             tooltipSheet = Content.Load<Texture2D>(@"ToolTip");
             Cursor = new Sprite(Vector2.Zero, cursorSheet, new Microsoft.Xna.Framework.Rectangle(0, 0, 13, 20), Vector2.Zero);
            
-            //EffectManager.Initialize(graphics, Content);
-            //EffectManager.LoadContent();
+            
             pericles14 = Content.Load<SpriteFont>(@"Pericles14");
             pericles2 = Content.Load<SpriteFont>(@"Pericles2");
             weaponManager = new WeaponManager(WeaponShelterSheet);
             shelterManager =new ShelterManager(WeaponShelterSheet);
             player = new PlayerManager(WeaponShelterSheet);
             ToolTip.AssignTexture(tooltipSheet);
+            mineManager.switchToMine(player);
+             
             // TODO: use this.Content to load your game content here
         }
 
@@ -118,6 +113,7 @@ namespace Colonization
         /// checking for collisions, gathering input, and playing audio.
         /// </summary>
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        
         protected override void Update(GameTime gameTime)
         {
             MouseState ms = Mouse.GetState();
@@ -126,7 +122,7 @@ namespace Colonization
             if (state == GameStates.TitleScreen)
             {
                 if (StartButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
-                    state = GameStates.Intermission;
+                    state = GameStates.Minning;
                 if (nothingButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
                     Console.WriteLine("YAYYY");
                 if (OptionsButton.Intersects(Cursor.BoundingBoxRect) && ms.LeftButton == ButtonState.Pressed)
@@ -157,9 +153,16 @@ namespace Colonization
                 }
                 weaponManager.Update(gameTime, ms);
                 shelterManager.Update(gameTime, ms);
-                mine.Update(gameTime.ElapsedGameTime.Milliseconds);
+             
                
             }
+            if (state == GameStates.Minning)
+            {
+             mineManager.Update(gameTime.ElapsedGameTime.Milliseconds);
+             player.update(gameTime);
+             //if (mineManager.isHighlighted) 
+               // Cursor.frames[0] = new Microsoft.Xna.Framework.Rectangle(15, 0, 20, 20);
+             }
             base.Update(gameTime);
         }
 
@@ -181,13 +184,19 @@ namespace Colonization
                  "Why did you click this button you idiot!",
                  new Vector2(280,240),
                  Color.White);
-             if (state == GameStates.Intermission || state == GameStates.DuringWave)
+             if (state == GameStates.Minning)
+             {
+               
+                   mineManager.Draw();
+                   player.Player.Draw(spriteBatch);
+             }
+            if (state == GameStates.Intermission || state == GameStates.DuringWave)
              {
                  if (isAM) spriteBatch.Draw(backdrop, new Microsoft.Xna.Framework.Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), SkyTint[(int)TimeHour - 1]);
                  else spriteBatch.Draw(backdrop, new Microsoft.Xna.Framework.Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), SkyTint[(int)TimeHour + 10]);
                  spriteBatch.Draw(mainscreen, new Microsoft.Xna.Framework.Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
                  spriteBatch.Draw(WeaponShelterSheet, new Vector2(300, 300), new Microsoft.Xna.Framework.Rectangle(0, 97, 49, 49), Color.White);
-                 mine.Draw(mapDisplayDevice,viewport);
+               
                  
                  shelterManager.Draw(spriteBatch);
                  weaponManager.Draw(spriteBatch);
