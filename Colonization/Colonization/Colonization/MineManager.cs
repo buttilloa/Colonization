@@ -15,14 +15,15 @@ namespace Colonization
 {
     class MineManager
     {
-        Map mine;
+        public Map mine;
         IDisplayDevice mapDisplayDevice;
         xTile.Dimensions.Rectangle viewport;
        public bool isHighlighted = false;
+       public Location Highlighted;
         public MineManager(ContentManager content, GraphicsDevice graphicsDevice)
         {
          
-            mapDisplayDevice = new XnaDisplayDevice(content, graphicsDevice);
+             mapDisplayDevice = new XnaDisplayDevice(content, graphicsDevice);
              mine = content.Load<Map>("MineMap");
              mine.LoadTileSheets(mapDisplayDevice);
             
@@ -36,7 +37,7 @@ namespace Colonization
         }
         public void Update(long time)
         {
-          MouseState ms = Mouse.GetState();
+            MouseState ms = Mouse.GetState();
             if(ms.X >96)
             {
                 isHighlighted = true;
@@ -48,6 +49,7 @@ namespace Colonization
         public void Draw()
         {
             mine.Draw(mapDisplayDevice, viewport);
+           
         }
     }
 }

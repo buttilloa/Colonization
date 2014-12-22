@@ -8,6 +8,7 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using xTile.Dimensions;
 
 
 namespace Colonization
@@ -160,9 +161,45 @@ namespace Colonization
             {
              mineManager.Update(gameTime.ElapsedGameTime.Milliseconds);
              player.update(gameTime);
-             //if (mineManager.isHighlighted) 
-               // Cursor.frames[0] = new Microsoft.Xna.Framework.Rectangle(15, 0, 20, 20);
+             if (TimeSeconds >= 55)
+             {
+                 TimeMinutes++; ;
+                 TimeSeconds = 0;
              }
+             if (TimeMinutes < 60)
+                 TimeSeconds += 1;
+             else
+             {
+                 if (TimeHour == 12)
+                 {
+                     TimeHour = 1;
+                     if (isAM) isAM = false;
+                     else isAM = true;
+                 }
+                 else
+                     TimeHour++;
+                 TimeMinutes = 01;
+             }
+                if (mineManager.isHighlighted)
+                 Cursor.isVisible = false;
+            if(ms.LeftButton == ButtonState.Pressed)
+                mineManager.mine.Layers[0].Tiles[mineManager.Highlighted].TileIndex = 8;
+                for (int i = 0; i < 40; i++)
+             {
+                 for (int j = 0; j < 40; j++)
+                 {
+                     Microsoft.Xna.Framework.Rectangle mouse = new Microsoft.Xna.Framework.Rectangle(ms.X, ms.Y, 1, 1);
+                     if (mouse.Intersects(new Microsoft.Xna.Framework.Rectangle(i * 20, j * 20, 20, 20)))
+                     {
+                          mineManager.Highlighted = new Location(i, j);
+                         mineManager.mine.Layers[1].Tiles[new Location(i, j)].TileIndex = 4;
+                     }
+                     else mineManager.mine.Layers[1].Tiles[new Location(i, j)].TileIndex = 8;
+                   
+                 }
+             }
+            
+              }
             base.Update(gameTime);
         }
 
@@ -186,9 +223,20 @@ namespace Colonization
                  Color.White);
              if (state == GameStates.Minning)
              {
-               
-                   mineManager.Draw();
-                   player.Player.Draw(spriteBatch);
+                  mineManager.Draw();
+                   spriteBatch.DrawString(pericles14, "Wood: " + WoodCount, new Vector2(687, 10), Color.White);
+                   spriteBatch.DrawString(pericles14, "Stone: " + StoneCount, new Vector2(685, 25), Color.White);
+                   spriteBatch.DrawString(pericles14, "iron: " + IronCount, new Vector2(700, 40), Color.White);
+                   if (isAM)
+                       if (TimeMinutes < 10)
+                           spriteBatch.DrawString(pericles14, "Time: " + TimeHour + ":" + "0" + TimeMinutes + " AM", new Vector2(505, 10), Color.White);
+                       else spriteBatch.DrawString(pericles14, "Time: " + TimeHour + ":" + +TimeMinutes + " AM", new Vector2(505, 10), Color.White);
+                   else
+                       if (TimeMinutes < 10)
+                           spriteBatch.DrawString(pericles14, "Time: " + TimeHour + ":" + "0" + TimeMinutes + " PM", new Vector2(505, 10), Color.White);
+                       else spriteBatch.DrawString(pericles14, "Time: " + TimeHour + ":" + +TimeMinutes + " PM", new Vector2(505, 10), Color.White);
+             
+                 player.Player.Draw(spriteBatch);
              }
             if (state == GameStates.Intermission || state == GameStates.DuringWave)
              {
