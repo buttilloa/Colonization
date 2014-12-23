@@ -147,3 +147,4 @@ C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\MineMap.xnb
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\xTile.dll
 C:\Users\Anthony\Desktop\Colonization\Colonization\Colonization\Colonization\obj\x86\Debug\Colonization.csprojResolveAssemblyReference.cache
+C:\Users\EASHCS\Desktop\Colonization\Colonization\Colonization\Colonization\bin\x86\Debug\Content\testGuy.xnb

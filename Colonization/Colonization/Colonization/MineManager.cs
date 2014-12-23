@@ -32,7 +32,7 @@ namespace Colonization
         }
         public void switchToMine(PlayerManager player)
         {
-            player.Player.Location = new Vector2(10, 96);
+            player.Player.Location = new Vector2(10, 116);
 
         }
         public void Update(long time)

@@ -27,6 +27,7 @@ namespace Colonization
         Texture2D cursorSheet;
         Texture2D tooltipSheet;
         Texture2D WeaponShelterSheet;
+        Texture2D guy;
         Sprite Cursor;
         SpriteFont pericles14, pericles2;
         WeaponManager weaponManager;
@@ -87,13 +88,13 @@ namespace Colonization
             cursorSheet = Content.Load<Texture2D>(@"cursor");
             tooltipSheet = Content.Load<Texture2D>(@"ToolTip");
             Cursor = new Sprite(Vector2.Zero, cursorSheet, new Microsoft.Xna.Framework.Rectangle(0, 0, 13, 20), Vector2.Zero);
-           
+            guy = Content.Load<Texture2D>(@"testGuy");
             
             pericles14 = Content.Load<SpriteFont>(@"Pericles14");
             pericles2 = Content.Load<SpriteFont>(@"Pericles2");
             weaponManager = new WeaponManager(WeaponShelterSheet);
             shelterManager =new ShelterManager(WeaponShelterSheet);
-            player = new PlayerManager(WeaponShelterSheet);
+            player = new PlayerManager(WeaponShelterSheet,guy);
             ToolTip.AssignTexture(tooltipSheet);
             mineManager.switchToMine(player);
              

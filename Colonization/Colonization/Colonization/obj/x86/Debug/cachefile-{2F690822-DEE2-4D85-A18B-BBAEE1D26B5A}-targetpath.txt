@@ -41,3 +41,4 @@ Content\Mine.xnb
 Content\Pericles14.xnb
 Content\Pericles2.xnb
 Content\MineMap.xnb
+Content\testGuy.xnb

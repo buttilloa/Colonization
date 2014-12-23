@@ -11,12 +11,14 @@ namespace Colonization
     class PlayerManager
     {
         public Sprite Player;
+        Texture2D Guy;
         Random randy = new Random();
         int moving = -1; // 0 down 1 right 2 up 3 left -1 none
         int timer = 0;
        
-        public PlayerManager(Texture2D sheet)
+        public PlayerManager(Texture2D sheet,Texture2D guy)
         {
+            Guy = guy;
             Player = new Sprite(new Vector2(300, 248), sheet, new Rectangle(2, 292, 43, 102), new Vector2(0,0));
             Player.AddFrame(new Rectangle(2, 292, 43, 102));
             Player.AddFrame(new Rectangle(2, 292, 43, 102));
@@ -43,20 +45,45 @@ namespace Colonization
                     }
                 }
                 if (randy.Next(0, 20) == 9)
-                    moving = -1;
+                    moving = -1; 
+                
+                if (Player.Velocity.X > 0) TurnRight();
+            else if (Player.Velocity.X < 0) TurnLeft();
+            else if (Player.Velocity.Y < 0) TurnUp();
+            else if (Player.Velocity.Y > 0||Player.Velocity.X ==0) TurnDown();
             }
             if (moving == 0) Player.Velocity = new Vector2(60, 0);
           else if (moving == 1) Player.Velocity = new Vector2(-60, 0);
           else if (moving == 2) Player.Velocity = new Vector2(0, -60);
           else if (moving == 3) Player.Velocity = new Vector2(-60, 0);
             
-            if (Player.Velocity.X > 0) TurnRight();
-            else if (Player.Velocity.X < 0) TurnLeft();
-            else if (Player.Velocity.Y < 0) TurnUp();
-            else if (Player.Velocity.Y > 0||Player.Velocity.X ==0) TurnDown();
+           
 
             if (Game1.state == Game1.GameStates.Minning)
             {
+                Player.Texture = Guy;
+                if (Player.Velocity.X > 0)
+                {
+                    Player.frames[0] = new Rectangle(114, 21, 32, 88);
+                    Player.frames[1] = new Rectangle(149, 21, 32, 88);
+                    Player.frames[2] = new Rectangle(114, 21, 32, 88);
+                    Player.frames[3] = new Rectangle(149, 21, 32, 88);
+                }
+                else if (Player.Velocity.X < 0)
+                {
+                    Player.frames[0] = new Rectangle(43, 21, 32, 88);
+                    Player.frames[1] = new Rectangle(77, 21, 32, 88);
+                    Player.frames[2] = new Rectangle(43, 21, 32, 88);
+                    Player.frames[3] = new Rectangle(77, 21, 32, 88);
+                }
+                else if (Player.Velocity.Y > 0 || Player.Velocity.X == 0)
+                {
+                    Player.frames[0] = new Rectangle(1, 21, 35, 88);
+                    Player.frames[1] = new Rectangle(1, 21, 35, 88); 
+                    Player.frames[2] = new Rectangle(1, 21, 35, 88);
+                    Player.frames[3] = new Rectangle(1, 21, 35, 88);
+                }
+                
                 if (Player.Location.X <= 2 && Player.Velocity.X <= -1)
                     Player.Velocity = new Vector2(0, 0);
                 if (Player.Location.X >= 798 && Player.Velocity.X >= -1)
